@@ -1,10 +1,232 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt-BR">
 <head>
-<title>Gigabyte Studio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="GigabyteStudio — projetos e experimentos em desenvolvimento." />
+  <title>GigabyteStudio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23ffffff' d='M10 18h44v28H10z'/%3E%3Cpath fill='%230b0f19' d='M14 22h36v20H14z'/%3E%3Cpath fill='%235b8cff' d='M18 26h10v12H18z'/%3E%3Cpath fill='%23a7b6ff' d='M32 26h14v4H32z'/%3E%3Cpath fill='%23a7b6ff' d='M32 34h14v4H32z'/%3E%3C/svg%3E">
 </head>
+
 <body>
-<h1>Gigabyte Studio</h1>
-<p>Projeto em andamento.</p>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark">GS</span>
+        <span class="brand-name">GigabyteStudio</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a class="btn small" href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="badge">Em desenvolvimento • Experimentos & lançamentos</p>
+          <h1>Construindo projetos simples, úteis e bem feitos.</h1>
+          <p class="subtitle">
+            A GigabyteStudio é meu espaço para criar, testar e publicar aplicações.
+            Este site é uma base estática (GitHub Pages) e vai evoluindo com o tempo.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="#projetos">Ver projetos</a>
+            <a class="btn ghost" href="#contato">Falar comigo</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-value">⚡</div>
+              <div class="stat-label">Rápido e leve</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">🔒</div>
+              <div class="stat-label">HTTPS no Pages</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">🧩</div>
+              <div class="stat-label">Base para futuros apps</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-glow"></div>
+          <div class="card">
+            <h2>Status</h2>
+            <p class="muted">
+              Domínio: <strong>gigabytestudio.com.br</strong><br/>
+              Hospedagem: <strong>GitHub Pages</strong><br/>
+              Deploy: <strong>automático via Git</strong>
+            </p>
+
+            <div class="divider"></div>
+
+            <h3>Agora no ar</h3>
+            <ul class="list">
+              <li>Landing page</li>
+              <li>Seção de projetos</li>
+              <li>Links rápidos</li>
+            </ul>
+
+            <div class="mini-actions">
+              <a class="chip" href="#projetos">📦 Projetos</a>
+              <a class="chip" href="#contato">✉️ Contato</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-orb orb1"></div>
+      <div class="bg-orb orb2"></div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projetos</h2>
+          <p class="muted">Alguns projetos e ideias que eu uso para aprender e publicar quando estiverem prontos.</p>
+        </div>
+
+        <div class="grid">
+          <article class="project">
+            <div class="project-top">
+              <span class="tag">App</span>
+              <span class="tag subtle">Em andamento</span>
+            </div>
+            <h3>SleepTracker</h3>
+            <p>Aplicativo para registrar sono e acompanhar hábitos com uma experiência simples e objetiva.</p>
+            <div class="project-actions">
+              <a class="link" href="#" aria-disabled="true">Ver página →</a>
+              <span class="hint">link em breve</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <span class="tag">Web</span>
+              <span class="tag subtle">Base</span>
+            </div>
+            <h3>Sites estáticos</h3>
+            <p>Landing pages e sites institucionais rápidos e confiáveis hospedados no GitHub Pages.</p>
+            <div class="project-actions">
+              <a class="link" href="#contato">Solicitar →</a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <span class="tag">Experimentos</span>
+              <span class="tag subtle">R&D</span>
+            </div>
+            <h3>Ferramentas internas</h3>
+            <p>Ferramentas e protótipos para acelerar desenvolvimento e testes de novas ideias.</p>
+            <div class="project-actions">
+              <a class="link" href="#sobre">Saiba mais →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section alt">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <h2>Sobre a GigabyteStudio</h2>
+            <p class="muted">
+              Este site existe para centralizar projetos e servir como “hub” de experimentos.
+              Conforme eu for lançando coisas (web e apps), os links e páginas vão aparecer aqui.
+            </p>
+
+            <div class="bullets">
+              <div class="bullet">
+                <div class="dot"></div>
+                <div>
+                  <strong>Foco</strong>
+                  <p class="muted">simplicidade, performance e manutenção fácil.</p>
+                </div>
+              </div>
+              <div class="bullet">
+                <div class="dot"></div>
+                <div>
+                  <strong>Stack</strong>
+                  <p class="muted">HTML/CSS/JS (site) + projetos variados.</p>
+                </div>
+              </div>
+              <div class="bullet">
+                <div class="dot"></div>
+                <div>
+                  <strong>Objetivo</strong>
+                  <p class="muted">um lugar único para publicar e testar projetos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Links rápidos</h3>
+            <div class="quick">
+              <a class="qcard" href="https://github.com/" target="_blank" rel="noreferrer">
+                <span>GitHub</span>
+                <small>repositórios e releases</small>
+              </a>
+              <a class="qcard" href="https://play.google.com/console/" target="_blank" rel="noreferrer">
+                <span>Play Console</span>
+                <small>publicação de apps</small>
+              </a>
+              <a class="qcard" href="#contato">
+                <span>Contato</span>
+                <small>email e redes</small>
+              </a>
+            </div>
+            <p class="tiny muted">
+              (Se quiser, depois eu adapto esses links para os seus perfis reais.)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="contact-card">
+          <div>
+            <h2>Contato</h2>
+            <p class="muted">
+              Quer falar sobre um site simples, landing page, ou algum projeto? Me chama.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <!-- Troque o email abaixo pelo seu quando quiser -->
+            <a class="btn" href="mailto:contato@gigabytestudio.com.br">Enviar email</a>
+            <a class="btn ghost" href="#top" id="backTop">Voltar ao topo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> GigabyteStudio</span>
+      <span class="muted">Feito com HTML/CSS e hospedado no GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
