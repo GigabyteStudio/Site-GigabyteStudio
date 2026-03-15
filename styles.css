@@ -126,13 +126,13 @@ a {
   font-size: 14px;
 }
 
-.hero{
-  position:relative;
-  padding:56px 0 22px;
-  overflow:hidden;
+.hero {
+  position: relative;
+  padding: 56px 0 22px;
+  overflow: hidden;
   background:
-    radial-gradient(1200px 600px at 20% -10%, rgba(91,140,255,.18), transparent 60%),
-    radial-gradient(900px 500px at 90% 0%, rgba(167,182,255,.12), transparent 55%);
+    radial-gradient(1200px 600px at 20% -10%, rgba(91, 140, 255, .18), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(167, 182, 255, .12), transparent 55%);
 }
 
 .hero-grid {
